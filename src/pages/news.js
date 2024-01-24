@@ -59,6 +59,52 @@
 // export default News;
 
 
+// import Nav from '@/components/Nav';
+// import stylesz from '../styles/news.module.css';
+// import Footer from '@/components/Footer';
+// import styles from '../styles/index.module.css';
+
+// function News() {
+//   return (
+//     <>
+//       <div className={`${stylesz.OverallNewsPage}`}>
+//         <Nav />
+//         <div className={`${stylesz.ImageContainer}`}>
+//           {/* Background image container, if needed */}
+//           <div className={`${stylesz.NewsandPress}`}>News & Press</div>
+//         </div>
+//         <div className='py-12'>
+//           <div className={`${stylesz.IndividualWhatWeDo1} text-center grid items-center`}>
+//             <p className={`${stylesz.IndividualWhatWeDoTopic} py-6 text-[#00D7FF]`}>Empowering Women in Blockchain: A New Era of Opportunities</p>
+//             <p className='text-[16px] md:text-[18px] px-4 text-center md:text-start'> 
+//               In a groundbreaking initiative, our platform is revolutionizing the way women engage with blockchain technology. We aim to bridge the gender gap in this rapidly evolving sector by offering comprehensive educational resources and community support tailored to women's needs. Our programs cover a broad spectrum of blockchain-related topics, from cryptocurrency trading to understanding smart contracts and exploring decentralized finance (DeFi).
+//             </p>
+//             <p className='text-center md:text-start py-4'>
+//               Our mission is to empower women by demystifying blockchain technology and providing them with the tools and knowledge to become active participants and innovators in this space. By fostering an inclusive community, we create a safe and supportive environment where women can learn, grow, and connect with like-minded individuals.
+//             </p>
+//             <p className='text-center md:text-start py-4'>
+//               "Blockchain technology is not just about cryptocurrencies. It's a revolution that offers unprecedented opportunities. We want women to be at the forefront of this revolution, shaping the future of technology," said Jane Doe, founder of our platform. "Our courses and events are designed to be accessible, engaging, and most importantly, relevant to the challenges and opportunities women face in the blockchain ecosystem."
+//             </p>
+//             <p className='text-center md:text-start py-4'>
+//               With our platform, women are not only gaining valuable knowledge but also joining a movement that champions their role in the digital age. We are committed to expanding our reach and continuing to provide resources that pave the way for women's success in the world of blockchain.
+//             </p>
+//             <p className='text-start py-4 font-semibold text-[#00D7FF]'>About Our Platform</p>
+//             <p className='text-center md:text-start'>
+//               Our platform is dedicated to educating and empowering African women in the realm of blockchain technology. We believe in creating a diverse and inclusive space where women can learn about the vast potential of blockchain and how it can be leveraged for both personal and community growth.
+//             </p>
+//           </div>
+//           <div className={`${styles.FooterDesktop} pt-12`}>
+//             <Footer />
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   )
+// }
+
+// export default News;
+
+
 import Nav from '@/components/Nav';
 import stylesz from '../styles/news.module.css';
 import Footer from '@/components/Footer';
@@ -70,23 +116,22 @@ function News() {
       <div className={`${stylesz.OverallNewsPage}`}>
         <Nav />
         <div className={`${stylesz.ImageContainer}`}>
-          {/* Background image container, if needed */}
-          <div className={`${stylesz.NewsandPress}`}>News & Press</div>
+          <div className={`${stylesz.NewsandPress}`}>News &amp; Press</div>
         </div>
         <div className='py-12'>
           <div className={`${stylesz.IndividualWhatWeDo1} text-center grid items-center`}>
             <p className={`${stylesz.IndividualWhatWeDoTopic} py-6 text-[#00D7FF]`}>Empowering Women in Blockchain: A New Era of Opportunities</p>
             <p className='text-[16px] md:text-[18px] px-4 text-center md:text-start'> 
-              In a groundbreaking initiative, our platform is revolutionizing the way women engage with blockchain technology. We aim to bridge the gender gap in this rapidly evolving sector by offering comprehensive educational resources and community support tailored to women's needs. Our programs cover a broad spectrum of blockchain-related topics, from cryptocurrency trading to understanding smart contracts and exploring decentralized finance (DeFi).
+              In a groundbreaking initiative, our platform is revolutionizing the way women engage with blockchain technology. We aim to bridge the gender gap in this rapidly evolving sector by offering comprehensive educational resources and community support tailored to women&apos;s needs. Our programs cover a broad spectrum of blockchain-related topics, from cryptocurrency trading to understanding smart contracts and exploring decentralized finance (DeFi).
             </p>
             <p className='text-center md:text-start py-4'>
               Our mission is to empower women by demystifying blockchain technology and providing them with the tools and knowledge to become active participants and innovators in this space. By fostering an inclusive community, we create a safe and supportive environment where women can learn, grow, and connect with like-minded individuals.
             </p>
             <p className='text-center md:text-start py-4'>
-              "Blockchain technology is not just about cryptocurrencies. It's a revolution that offers unprecedented opportunities. We want women to be at the forefront of this revolution, shaping the future of technology," said Jane Doe, founder of our platform. "Our courses and events are designed to be accessible, engaging, and most importantly, relevant to the challenges and opportunities women face in the blockchain ecosystem."
+              &quot;Blockchain technology is not just about cryptocurrencies. It&apos;s a revolution that offers unprecedented opportunities. We want women to be at the forefront of this revolution, shaping the future of technology,&quot; said Jane Doe, founder of our platform. &quot;Our courses and events are designed to be accessible, engaging, and most importantly, relevant to the challenges and opportunities women face in the blockchain ecosystem.&quot;
             </p>
             <p className='text-center md:text-start py-4'>
-              With our platform, women are not only gaining valuable knowledge but also joining a movement that champions their role in the digital age. We are committed to expanding our reach and continuing to provide resources that pave the way for women's success in the world of blockchain.
+              With our platform, women are not only gaining valuable knowledge but also joining a movement that champions their role in the digital age. We are committed to expanding our reach and continuing to provide resources that pave the way for women&apos;s success in the world of blockchain.
             </p>
             <p className='text-start py-4 font-semibold text-[#00D7FF]'>About Our Platform</p>
             <p className='text-center md:text-start'>
