@@ -106,7 +106,7 @@ function Footer() {
             <div className='grid place-content-center md:place-content-start text-center'>
               <p style={{ color: '#00D7FF', fontSize: '24px', marginBottom: '10px' }}>Contacts</p>
               <p>+254 700 225 704</p>
-              <p>bitcoindada@protonmail.com</p>
+              <p>ledgerlady@protonmail.com</p>
             </div>
           </Grid>
         </Grid>

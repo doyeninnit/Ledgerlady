@@ -31,7 +31,7 @@ const toggleDrawer = (open) => (event) => {
     <div className={`${styles.LogoDiv}`}><img src='/images/ladylogo.png' className=' w-full h-full'/></div>
     <div className={`${styles.NavItemsDEsktopDiv}`}>
       <Link href='/' > <p className={`${styles.NavItemDesktop}`}>Home</p></Link>
-      <Link href='/learnBitcoin' ><p className={`${styles.NavItemDesktop}`}>Learn Bitcoin</p></Link>
+      {/* <Link href='/learnBitcoin' ><p className={`${styles.NavItemDesktop}`}>Learn Bitcoin</p></Link> */}
       <Link href='/news' > <p className={`${styles.NavItemDesktop}`}>News</p></Link>
       <Link href='/contact' > <p className={`${styles.NavItemDesktop}`}>Contact</p></Link>
     </div>
