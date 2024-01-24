@@ -73,7 +73,7 @@ function Footer() {
           <Grid item xs={12} sm={6} lg={3}>
             <div className='grid place-content-center md:place-content-start text-center'>
               <img src="images/ladylogo.png" alt="Logo" style={{ marginBottom: '10px' }}/>
-              <p style={{ textAlign: 'justify', padding: '0 10px' }}>The next generation of the financial ecosystem is being built and we as women can't afford to delay learning about blockchain. Our main goal is to empower the African woman through education, thereby accelerating blockchain adoption across the continent.</p>
+              <p style={{ textAlign: 'justify', padding: '0 10px' }}>The next generation of the financial ecosystem is being built and we as women can&apos;t afford to delay learning about blockchain. Our main goal is to empower the African woman through education, thereby accelerating blockchain adoption across the continent.</p>
             </div>
           </Grid>
 
