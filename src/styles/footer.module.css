@@ -1,0 +1,32 @@
+.MainWords{
+
+/* font-family: 'Inter'; */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+color: #00D7FF;
+}
+.GridFooterDesktop{
+    min-height: 30vh;
+    /* text-align: start; */
+}
+.FooterLine{
+    width: 100vw;
+    background-color: #00D7FF;
+    height: 1px;
+}
+/* @media screen and (max-width:768px) {  
+    .GridFooterDesktop{
+        min-height: 30vh;
+       
+    }
+} */
+@media screen and (max-width:768px) {  
+    .GridFooterDesktop{
+        min-height: max-content;
+        margin-bottom: 3rem;
+       
+    }
+}
