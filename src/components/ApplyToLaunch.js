@@ -4,7 +4,7 @@ function ApplyToLaunch() {
   return (
     <div className={`${styles.ApplyToLaunch} flex mx-auto  `}>
 <div className='grid items-center'>
-<p className={`${styles.AboutUsDesktop}  w-3/5 md:w-3/4 px-6 flex flex-wrap `}>Apply to launch your Project to the launchpad.</p>
+<p className={`${styles.AboutUsDesktop}  w-3/5 md:w-3/4 px-6 flex flex-wrap `}>Apply to Join.</p>
 <div className=' px-6'>
   <button className={`${styles.ButtonsForDesktop}`}>Apply Now</button>
 </div>
