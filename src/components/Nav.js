@@ -36,7 +36,7 @@ const toggleDrawer = (open) => (event) => {
       <Link href='/contact' > <p className={`${styles.NavItemDesktop}`}>Contact</p></Link>
     </div>
     <div>
-    <Link href='/contact'> <button className={`${styles.ButtonDesktop} flex items-center text-white place-content-center`}>Donate</button></Link>
+    <Link href='/donation'> <button className={`${styles.ButtonDesktop} flex items-center text-white place-content-center`}>Donate</button></Link>
     </div>
     </div>
   

@@ -37,9 +37,11 @@
 
 
 import styles from '../styles/index.module.css';
-import { AiOutlineArrowRight } from 'react-icons/ai';
 
 function WhatWeDo() {
+
+  const applicationFormUrl = "https://app.deform.cc/form/0db19494-d668-4c26-87bb-4f9e5e387450/"; // Replace with your actual URL
+
   return (
     <div className={`${styles.WhatWeDoDesktop}  w-10/12 justify-between items-center mx-auto text-white`}>
       <div className={`${styles.FirstPartDesktop}`}>
@@ -47,7 +49,10 @@ function WhatWeDo() {
         <div className={`${styles.YellowLine}`}></div>
         <p className='w-full md:w-10/12 py-8 text-[18px]'>At Ledger Lady, we empower women with comprehensive knowledge in the broader blockchain ecosystem. Our commitment goes beyond Bitcoin to include various aspects of blockchain technology. We offer educational resources, training programs, and support tailored for women, fostering their growth in blockchain and cryptocurrency.</p>
         <div className='flex py-8'>
-          <button className={`${styles.ButtonsForDesktop}`}>Apply Now</button>
+          {/* <button className={`${styles.ButtonsForDesktop}`}>Apply Now</button> */}
+          <a href={applicationFormUrl} target="_blank" rel="noopener noreferrer">
+            <button className={`${styles.ButtonsForDesktop}`}>Apply Now</button>
+          </a>
         </div>
       </div>
       <div className={`${styles.AgainGRiParts} flex flex-wrap place-content-center gap-4 md:gap-8`}>
