@@ -6,12 +6,12 @@ function Donation() {
     { 
       name: 'Bitcoin', 
       logo: '/path/to/bitcoin-logo.png', // Replace with actual path
-      addresses: ['1BitcoinAddress...', '1BitcoinAddress2...'] 
+      addresses: ['1EcshBuGTwXTYvomENF8oD1ncwcuXDJtK4'] 
     },
     { 
       name: 'Ethereum', 
       logo: '/path/to/ethereum-logo.png', // Replace with actual path
-      addresses: ['0xEthereumAddress...'] 
+      addresses: ['0x0291a41f8922284436bd6fbb8dcec16d77d82733'] 
     },
     // Add more chains here
   ];
@@ -22,7 +22,7 @@ function Donation() {
       <div className={styles.walletList}>
         {wallets.map((wallet, index) => (
           <div key={index} className={styles.walletCard}>
-            <img src={wallet.logo} alt={`${wallet.name} logo`} className={styles.walletLogo}/>
+            {/* <img src={wallet.logo} alt={`${wallet.name} logo`} className={styles.walletLogo}/> */}
             <h2 className={styles.walletName}>{wallet.name}</h2>
             <ul className={styles.addressList}>
               {wallet.addresses.map((address, index) => (

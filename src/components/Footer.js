@@ -94,10 +94,10 @@ function Footer() {
               <p style={{ color: '#00D7FF', fontSize: '24px', marginBottom: '10px' }}>Quick Links</p>
               <ul style={{ listStyleType: 'none', textAlign: 'left', paddingLeft: '20px' }}>
                 <li><Link href='/'><p>Home</p></Link></li>
-                <li><Link href='/learnBitcoin'><p>Learn Bitcoin</p></Link></li>
+                <li><Link href='/learnBitcoin'><p>Learn Blockchain</p></Link></li>
                 <li><Link href='/news'><p>News & Press</p></Link></li>
                 <li><Link href='/contact'><p>Contact</p></Link></li>
-                <li><Link href='https://donation.btcdada.com/'><p>Donate</p></Link></li>
+                {/* <li><Link href='https://donation.btcdada.com/'><p>Donate</p></Link></li> */}
               </ul>
             </div>
           </Grid>
@@ -105,8 +105,8 @@ function Footer() {
           <Grid item xs={12} sm={6} lg={3}>
             <div className='grid place-content-center md:place-content-start text-center'>
               <p style={{ color: '#00D7FF', fontSize: '24px', marginBottom: '10px' }}>Contacts</p>
-              <p>+254 700 225 704</p>
-              <p>ledgerlady@protonmail.com</p>
+              <p>+254 795327918</p>
+              <p>ledgerladyguru@gmail.com</p>
             </div>
           </Grid>
         </Grid>
